@@ -1,0 +1,33 @@
+.ui.basic.segment {
+    text-align: center;
+}
+.ui.basic.segment::after {
+    display: none;
+}
+
+.ui.visible.left.overlay.sidebar,
+.ui.animating.left.overlay.sidebar {
+    background-color: #ffffff;
+}
+
+.ui.inverted.icon.menu .item {
+    color: #000 !important;
+}
+
+.pushable {
+    height: 100vh !important;
+}
+
+.float-btn {
+    position: absolute;
+    display: block;
+    bottom: 6%;
+    left: 30%;
+}
+.top {
+    height: 5.7vh !important;
+}
+
+.item.selected {
+    background-color: #DFF3FF !important;
+}
